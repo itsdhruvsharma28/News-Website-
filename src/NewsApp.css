@@ -1,0 +1,87 @@
+form{
+    width:100%;  
+}
+
+
+.news-app{
+    width:98%;
+    margin-inline:auto;
+    margin-block:40px;
+
+    /* border:solid black 2px;   */
+}
+ .query-btn{
+    height: 40px;
+    width: 30%;
+    font-size:1.2rem;
+}
+ .submit-btn{
+border:0px;
+box-shadow: 0px 2px 15px grey;
+height:37px;
+width:70px;
+border-radius: 10px;
+margin-top:-10px;
+margin-left: 10px;
+/* background-color: #fff; */
+transition:box-shadow 1s;
+background-color:black;
+color: white;
+cursor: pointer;
+font-size:18px;
+ }
+ .submit-btn:hover{
+    box-shadow:none;
+ }
+.query-search-form{
+    height:100px;
+    /* border: solid 1px; */
+}
+
+.hadding-tag{
+   font-family: monospace;
+   height:80px; 
+   padding-top:10px;
+     font-size: 3rem;
+     border:solid 3px;
+     color: white;
+     position:fixed;
+     border: 0px;
+     border-radius: 20px;
+     box-shadow: 0px 0px 10px grey;
+     background-color: rgb(11, 105, 199);
+     transition:background-color 1.5s;
+     cursor: pointer;
+}
+.hadding-tag:hover{
+background-color:black;
+}
+.news-data{
+    box-shadow: 4px 4px 10px grey;
+}
+
+.hadding{
+    height: 100px;
+}
+.slected-news{
+    height: 80px;
+}
+.selcted-news-list{
+ list-style-type:none;
+ display: flex;
+ justify-content: space-around;
+}
+.list-items{
+    /* background-color: black; */
+    border:solid 2px;
+font-size:25px;
+border-radius: 10px;
+font-family:monospace;
+width:90px;
+margin-top: 10px;
+cursor: pointer;
+}
+.list-items:hover{
+    background-color: black; 
+    color:white; 
+}

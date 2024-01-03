@@ -1,0 +1,51 @@
+
+.news-card{
+  padding:20px;
+  border:2px solid #666;
+}
+
+img{
+    width:100%;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+p{
+   color:#333; 
+}
+
+.readmore-btn{
+  width:40%;
+  margin-inline:auto;
+  margin-top: 20px;
+  padding-block:20px;
+  border-radius: 10px;
+background-color:white;
+color:black;
+font-size: 20px;
+}
+.news-title:hover{
+   color: rgb(10, 97, 190);
+}
+.readmore-btn:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+.news-img{
+  width:300px;
+  transition:width 1s;
+  box-shadow: 0px 0px 16px grey;
+  cursor: pointer;
+
+}
+.news-img:hover{
+    width:350px;
+}
+  
+.news-card{
+  box-shadow: 0px 0px 16px rgb(163, 161, 161);
+}
